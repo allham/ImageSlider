@@ -4,14 +4,14 @@ body{
     justify-content:center;
     height:100vh;
     align-items:center;
-    background-color:aqua;
+    background-color:gainsboro;
 }
 
 .slider-container{
-    background-color:aquamarine;
+    background-color:cornflowerblue;
     position:relative;
-    width:900px;
-    height:700px;
+    width:500px;
+    height:300px;
     overflow:hidden;
     border-radius:10px;
     box-shadow:0 4px 8px rgba(0, 0, 0, 0.3);
@@ -40,8 +40,9 @@ body{
     opacity:1;
 }
 .header{
-    color:green;
+    color:seagreen;
     padding-top:0;
     display:flex;
     justify-content:space-between;
+    padding:0 10px;
 }
