@@ -23,7 +23,7 @@ function updateImg(){
     }else if(currentImg < 1){
         currentImg = imgsEl.length - 1;
     }
-    imageContainerEl.style.transform = `translateX(-${(currentImg)* 500}px)`;
+    imageContainerEl.style.transform = `translateX(-${(currentImg)* 900}px)`;
     timeout = setTimeout(()=>{
         currentImg++;
         updateImg();
