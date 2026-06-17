@@ -4,37 +4,39 @@ body{
     justify-content:center;
     height:100vh;
     align-items:center;
-    background-color:gainsboro;
+    background-color:burlywood;
 }
 
 .slider-container{
     background-color:cornflowerblue;
-    position:relative;
     width:500px;
     height:300px;
     overflow:hidden;
     border-radius:10px;
-    box-shadow:0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow:0 4px 8px rgba(120, 30, 210, 0.7);
 }
 .image-container{
+    position:relative;
     transition: transform 1s ease-in-out;
     display:flex;
-    /* transform:translateX(-1000px); */
 }
 .btn{
     position:absolute;
-    top:60%;
-    color:white;
+    top:50%;
+    color:crimson;
     font-size:30px;
     transform:translateY(-50%);
-    opacity:0.5;
+    opacity:0.7;
     cursor:pointer;
 }
+.btn:hover{
+    opacity:1;
+}
 .btn.prev{
-    left:10px;
+    left:20px;
 }
 .btn.next{
-    right:10px;
+    right:20px;
 }
 .btn:hover{
     opacity:1;
